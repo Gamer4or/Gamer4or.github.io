@@ -1,303 +1,189 @@
 <!DOCTYPE html>
-<!--
-Template Name: Fluffster
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
--->
-<html lang="">
-<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<html lang="en">
+
 <head>
-<title>Fluffster</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=K2D:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <title>CafeHub</title>
 </head>
-<body id="top">
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row0">
-  <div id="topbar" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <ul class="nospace">
-      <li><a href="index.html" title="Home"><i class="fas fa-home"></i></a></li>
-      <li><a href="#" title="Send a Mail"><i class="far fa-envelope"></i></a></li>
-      <li><a href="#" title="Help Centre"><i class="far fa-life-ring"></i></a></li>
-      <li><a href="#" title="Login"><i class="fas fa-sign-in-alt"></i></a></li>
-      <li><a href="#" title="Sign Up"><i class="fas fa-edit"></i></a></li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row1">
-  <header id="header" class="hoc clear"> 
-    <!-- ################################################################################################ -->
+
+<body>
+  <div class="main">
+    <header class="wrapper">
+      <nav class="landing_top">
+        <div class="branding">
+          <a href="./index.html">
+            <h1><span>Cafe</span>Hub</h1>
+          </a>
+        </div>
+
+        <div class="menu_text">
+          <h3>MENU</h3>
+        </div>
+
+        <a href="javavscript:void(0)" class="menu" >
+          <i class="fas fa-bars fa-1x"></i>
+        </a>
+
+        <div id="nav_items" class="nav_bar">
+          <ul>
+            <li><a href="javascript:void(0)" class="close_btn" >&times;</a></li>
+            <input type="text" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
+            <div class="nav_links">
+              <li><a href="index.html">home</a></li>
+              <li><a href="blogs.html">blogs</a></li>
+              <li><a href="#">about me</a></li>
+              <li><a href="#">contact me</a></li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="landing_bottom">
+        <div class="showcase">
+          <div class="large_text">
+            <h1><span>Cafe</span>Hub</h1>
+          </div>
+          <div class="small_text">
+            <h3>We make the most <b>Tasty</b> blogs about <span class="coffee">coffee.</span></h3>
+          </div>
+        </div>
+        <div class="expresso">
+          <h3>Expresso</h3>
+          <a href="#slogan"><i class="fas fa-arrow-circle-down fa-3x"></i></a>
+        </div>
+      </section>
+    </header>
+
     <section>
-      <div><i class="fas fa-phone"></i> +00 (123) 456 7890</div>
-      <div>
-        <h1 id="logo"><i class="fas fa-dove"></i> <a href="index.html">Fluffster</a></h1>
-      </div>
-      <div>
-        <form class="clear" method="post" action="#">
-          <fieldset>
-            <legend>Search:</legend>
-            <input type="search" value="" placeholder="Search Here&hellip;">
-            <button class="fas fa-search" type="submit" title="Search"><em>Search</em></button>
-          </fieldset>
-        </form>
+      <div id="slogan">
+        <h1 class="slogan_coffee">Coffee...</h1>
+        <div class="line_break"></div>
+        <h3 class="slogan_text">A lot can happen over coffee</h3>
       </div>
     </section>
-    <!-- ################################################################################################ -->
-  </header>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row2">
-  <nav id="mainav" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <ul class="clear">
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a class="drop" href="#">Pages</a>
-        <ul>
-          <li><a href="pages/gallery.html">Gallery</a></li>
-          <li><a href="pages/full-width.html">Full Width</a></li>
-          <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-          <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-          <li><a href="pages/basic-grid.html">Basic Grid</a></li>
-          <li><a href="pages/font-icons.html">Font Icons</a></li>
-        </ul>
-      </li>
-      <li><a class="drop" href="#">Dropdown</a>
-        <ul>
-          <li><a href="#">Level 2</a></li>
-          <li><a class="drop" href="#">Level 2 + Drop</a>
-            <ul>
-              <li><a href="#">Level 3</a></li>
-              <li><a href="#">Level 3</a></li>
-              <li><a href="#">Level 3</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Level 2</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Link Text</a></li>
-      <li><a href="#">Link Text</a></li>
-      <li><a href="#">Link Text</a></li>
-      <li><a href="#">Long Link Text</a></li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </nav>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div id="pageintro" class="wrapper row1 bgded" style="background-image:url('images/demo/backgrounds/01.png');">
-  <figure class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <figcaption class="heading">Viverra libero euismod ultrices</figcaption>
-    <img src="images/demo/980x500.png" alt=""> 
-    <!-- ################################################################################################ -->
-  </figure>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <main class="hoc container clear"> 
-    <!-- main body -->
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Faucibus sit amet et metus morbi</h6>
-      <p>A porttitor aliquam convallis arcu ut posuere porta erat tortor</p>
-    </div>
-    <ul id="services" class="nospace group">
-      <li class="one_third">
-        <article>
-          <h6 class="heading"><i class="fas fa-certificate"></i> <a href="#">Semper nisi nec pretium</a></h6>
-          <p>Sed finibus nam vitae tempor turpis fusce mollis massa vitae vestibulum porta [&hellip;]</p>
-          <footer><a href="#">View Details <i class="fas fa-angle-right"></i></a></footer>
-        </article>
-      </li>
-      <li class="one_third">
-        <article>
-          <h6 class="heading"><i class="fas fa-chess-king"></i> <a href="#">Lectus neque vehicula</a></h6>
-          <p>Nec vehicula magna vivamus auctor nec leo eget iaculis quisque lorem risus tempor [&hellip;]</p>
-          <footer><a href="#">View Details <i class="fas fa-angle-right"></i></a></footer>
-        </article>
-      </li>
-      <li class="one_third">
-        <article>
-          <h6 class="heading"><i class="fas fa-fighter-jet"></i> <a href="#">Nullam volutpat ex</a></h6>
-          <p>Vitae elit vitae laoreet egestas massa nullam bibendum arcu eget eros vehicula [&hellip;]</p>
-          <footer><a href="#">View Details <i class="fas fa-angle-right"></i></a></footer>
-        </article>
-      </li>
-    </ul>
-    <footer class="center"><a class="btn" href="#">Quis vehicula nulla <i class="fas fa-angle-right"></i></a></footer>
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
-    <div class="clear"></div>
-  </main>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper coloured">
-  <article class="hoc cta clear"> 
-    <!-- ################################################################################################ -->
-    <h6 class="three_quarter first">Varius quisque semper dolor eget neque dictum ac faucibus leo fermentum</h6>
-    <footer class="one_quarter"><a class="btn" href="#">Suspendisse sapien <i class="fas fa-angle-right"></i></a></footer>
-    <!-- ################################################################################################ -->
-  </article>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
-  <section id="introblocks" class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Hendrerit ut lorem nec rutrum</h6>
-      <p>Posuere arcu sed luctus nibh non viverra rutrum neque nulla pretium</p>
-    </div>
-    <ul class="nospace group">
-      <li class="one_third first">
-        <article><a href="#"><i class="fas fa-lemon"></i></a>
-          <h6 class="heading">Lectus interdum urna</h6>
-          <p>Mollis ut curabitur varius nibh nec dolor volutpat in sagittis mi semper nullam placerat quis [&hellip;]</p>
-          <footer><a class="btn" href="#">Read More <i class="fas fa-angle-right"></i></a></footer>
-        </article>
-      </li>
-      <li class="one_third">
-        <article><a href="#"><i class="fas fa-street-view"></i></a>
-          <h6 class="heading">Nibh justo nunc varius</h6>
-          <p>Ex nec iaculis phasellus ultricies nisi a elit vestibulum posuere class aptent taciti sociosqu [&hellip;]</p>
-          <footer><a class="btn" href="#">Read More <i class="fas fa-angle-right"></i></a></footer>
-        </article>
-      </li>
-      <li class="one_third">
-        <article><a href="#"><i class="fas fa-volleyball-ball"></i></a>
-          <h6 class="heading">Neque pretium nunc</h6>
-          <p>Ad litora torquent per conubia nostra per inceptos himenaeos praesent fringilla tempor quam in [&hellip;]</p>
-          <footer><a class="btn" href="#">Read More <i class="fas fa-angle-right"></i></a></footer>
-        </article>
-      </li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </section>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <section class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Viverra dui vestibulum eget duis</h6>
-      <p>Risus quam gravida eu sapien eget dignissim suscipit leo duis vitae</p>
-    </div>
-    <div id="latest" class="group">
-      <article class="one_half first"><a class="imgover" href="#"><img src="images/demo/546x410.png" alt=""></a>
-        <div class="excerpt">
-          <h6 class="heading">Purus leo cursus sollicitudin</h6>
-          <p>Ut vel arcu curabitur vel mi malesuada dictum ligula fermentum feugiat arcu integer commodo dui id lectus viverra [&hellip;]</p>
-          <div class="clear">
-            <footer class="fl_right"><a href="#">Read More <i class="fas fa-angle-right"></i></a></footer>
-            <ul class="nospace meta fl_left">
-              <li><i class="fas fa-user"></i> <a href="#">Admin</a></li>
-              <li><i class="fas fa-tag"></i> <a href="#">Tag Name</a></li>
-            </ul>
-          </div>
+
+    <!-- Blogs -->
+
+    <section class="featured_blogs">
+      <div class="blog_right">
+        <div><img src="https://source.unsplash.com/02MLReRp3I8/4180 × 2792" alt="" class="test"></div>
+        <div class="info">
+          <h2>This is the blog Heading</h2>
+          <p>Steamed to go latte filter shop sweet sugar robusta siphon. Strong half and half, coffee affogato, blue
+            mountain extraction cultivar strong brewed body. Single origin siphon that to go, aroma saucer fair trade
+            java turkish. And, fair trade, a flavour dark est body doppio[...]</p>
+          <a href="#" class="continue_btn">Continue Reading</a>
         </div>
-      </article>
-      <article class="one_half"><a class="imgover" href="#"><img src="images/demo/546x410.png" alt=""></a>
-        <div class="excerpt">
-          <h6 class="heading">Laoreet felis lobortis fusce</h6>
-          <p>Dui elit placerat vel maximus eu ullamcorper et lectus cras eu dolor nec nibh efficitur vehicula duis dictum tristique urna [&hellip;]</p>
-          <div class="clear">
-            <footer class="fl_right"><a href="#">Read More <i class="fas fa-angle-right"></i></a></footer>
-            <ul class="nospace meta fl_left">
-              <li><i class="fas fa-user"></i> <a href="#">Admin</a></li>
-              <li><i class="fas fa-tag"></i> <a href="#">Tag Name</a></li>
-            </ul>
-          </div>
+      </div>
+      <div class="blog_left">
+        <div><img src="https://source.unsplash.com/_QfGWOtITaM/3264 × 4896" alt=""></div>
+        <div class="info">
+          <h2>This is the blog Heading</h2>
+          <p>Beans, filter medium percolator robusta turkish affogato viennese cinnamon half and half saucer. Cream,
+            flavour that siphon cappuccino caffeine robust. Ut that carajillo coffee, crema, con panna a grounds id
+            pumpkin
+            spice. Chicory grounds sweet plunger pot saucer wings crema steamed siphon[...]</p>
+          <a href="#" class="continue_btn">Continue Reading</a>
         </div>
-      </article>
-    </div>
-    <footer class="center"><a class="btn" href="#">View More Posts <i class="fas fa-angle-right"></i></a></footer>
-    <!-- ################################################################################################ -->
-  </section>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row4">
-  <footer id="footer" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div class="one_half first">
-      <h6 class="heading">A lobortis nullam quis placerat</h6>
-      <p class="btmspace-30">Libero consectetur fringilla augue nullam enim nisi feugiat vel finibus.</p>
-      <ul class="nospace linklist contact">
-        <li><i class="fas fa-map-marker-alt"></i>
-          <address>
-          Street Name &amp; Number, Town, Postcode/Zip
-          </address>
-        </li>
-        <li><i class="fas fa-phone"></i> +00 (123) 456 7890</li>
-        <li><i class="fas fa-fax"></i> +00 (123) 456 7890</li>
-        <li><i class="far fa-envelope"></i> info@domain.com</li>
-      </ul>
-    </div>
-    <div class="one_quarter">
-      <h6 class="heading">Phasellus sit amet dui</h6>
-      <ul class="nospace linklist">
-        <li><a href="#">phasellus condimentum nisl</a></li>
-        <li><a href="#">fames ac turpis nunc egestas</a></li>
-        <li><a href="#">senectus et netus malesuada</a></li>
-        <li><a href="#">quam habitant morbi tristique</a></li>
-        <li><a href="#">ultricies ut tortor posuere</a></li>
-      </ul>
-    </div>
-    <div class="one_quarter">
-      <h6 class="heading">Nec ultricies ut massa</h6>
-      <p class="nospace btmspace-30">A nibh facilisis tincidunt at et dui sed odio nisl rhoncus quis finibus id ut sit amet.</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
-    </div>
-    <!-- ################################################################################################ -->
-  </footer>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row5">
-  <div id="copyright" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <!-- ################################################################################################ -->
+      </div>
+      <div class="blog_right">
+        <div><img src="https://source.unsplash.com/obV_LM0KjxY/4096 × 2730" alt=""></div>
+        <div class="info">
+          <h2>This is the blog Heading</h2>
+          <p>Mug est so cultivar medium iced coffee. Half and half to go cinnamon galão grounds arabica chicory. Milk,
+            black, aged, arabica strong, ristretto brewed strong brewed barista and beans[...]</p>
+          <a href="#" class="continue_btn">Continue Reading</a>
+        </div>
+      </div>
+      <div class="blog_left">
+        <div><img src="https://source.unsplash.com/KgziKKUyJVA/5760 × 3840" alt=""></div>
+        <div class="info">
+          <h2>This is the blog Heading</h2>
+          <p>Cream grounds white, extraction chicory dripper aged ristretto so saucer. Plunger pot, siphon affogato
+            white,
+            milk instant ristretto doppio robusta[...]</p>
+          <a href="#" class="continue_btn">Continue Reading</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fun Facts -->
+
+    <section class="fun_facts">
+      <h1>Fun Facts about <span>Coffee</span></h1>
+      <div class="facts">
+        <div class="fact">
+          <h2>Heading</h2>
+          <p>Extra cultivar grounds siphon single shot trifecta cultivar. Plunger pot strong, cream in, white grinder,
+            grounds, espresso cappuccino mocha redeye trifecta.</p>
+        </div>
+        <div class="fact">
+          <h2>Heading</h2>
+          <p>Extra cultivar grounds siphon single shot trifecta cultivar. Plunger pot strong, cream in, white grinder,
+            grounds, espresso cappuccino mocha redeye trifecta.</p>
+        </div>
+        <div class="fact">
+          <h2>Heading</h2>
+          <p>Extra cultivar grounds siphon single shot trifecta cultivar. Plunger pot strong, cream in, white grinder,
+            grounds, espresso cappuccino mocha redeye trifecta.</p>
+        </div>
+        <div class="fact">
+          <h2>Heading</h2>
+          <p>Extra cultivar grounds siphon single shot trifecta cultivar. Plunger pot strong, cream in, white grinder,
+            grounds, espresso cappuccino mocha redeye trifecta.</p>
+        </div>
+        <div class="fact">
+          <h2>Heading</h2>
+          <p>Extra cultivar grounds siphon single shot trifecta cultivar. Plunger pot strong, cream in, white grinder,
+            grounds, espresso cappuccino mocha redeye trifecta.</p>
+        </div>
+        <div class="fact">
+          <h2>Heading</h2>
+          <p>Extra cultivar grounds siphon single shot trifecta cultivar. Plunger pot strong, cream in, white grinder,
+            grounds, espresso cappuccino mocha redeye trifecta.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="login">
+        <h3>Login/Sign Up</h3>
+        <p><b>Login</b> or <b>Sign Up</b> to have full access to the site</p>
+        <div class="buttons">
+          <a class="login_btn button">Login</a></div>
+        <a class="sign_up button">Sign Up</a>
+      </div>
   </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
-<!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
-<script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.mobilemenu.js"></script>
+  </section>
+
+  <footer>
+    <div class="box">
+      <div class="social_media">
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="credits">
+      <h3>&copy;Kamal Teja | Image source: <a href="https://source.unsplash.com" target="_blank">Unsplash</a></h3>
+    </div>
+  </footer>
+  </div>
 </body>
+
 </html>
